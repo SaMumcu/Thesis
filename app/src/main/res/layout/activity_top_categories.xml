@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/gray"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Kategoriler"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_below="@+id/topBar"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/black"/>
+
+<LinearLayout
+    android:layout_below="@+id/line"
+    android:layout_marginBottom="55dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvKadin"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvKadin"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="KADIN"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvErkek"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvErkek"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="ERKEK"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvCocuk"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCocuk"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="ÇOCUK"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvBebek"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvBebek"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="BEBEK"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvAksesuar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvAksesuar"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="AKSESUAR"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvFirsatlar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvFirsatlar"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="FIRSATLAR"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/row_nav"
+            layout="@layout/row_navigation"/>
+    </LinearLayout>
+
+</RelativeLayout>

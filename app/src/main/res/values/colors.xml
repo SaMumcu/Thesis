@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F3F3F3</color>
+    <color name="colorPrimaryDark">#F3F3F3</color>
+    <color name="colorAccent">#33C174</color>
+    <color name="acikYesil">#8033C174</color>
+    <color name="textColorPrimary">#656565</color>
+
+    <color name="black">#000</color>
+    <color name="gray">#F3F3F3</color>
+    <color name="darkGray">#656565</color>
+    <color name="lightGray">#80939393</color>
+    <color name="green">#33C174</color>
+    <color name="red">#E14B0F</color>
+    <color name="white">#80FFFFFF</color>
+    <color name="boldWhite">#FFFF</color>
+
+    <color name="kadin">#e74c3c</color>
+    <color name="erkek">#1abc9c</color>
+    <color name="cocuk">#f1c40f</color>
+    <color name="bebek">#3498db</color>
+    <color name="aksesuar">#9b59b6</color>
+    <color name="firsatlar">#34495e</color>
+</resources>

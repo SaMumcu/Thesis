@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TEZ</string>
+    <string name="wrongLogInInputError">Şifre en az 8 karakter,en az 1 rakam,en az 1 büyük yada küçük karakter," + "\n" + "boşluk yada tab içermeyen" + "\n" + "en az 1 özel karakter barıdıran bir şifre olmalıdır.</string>
+</resources>

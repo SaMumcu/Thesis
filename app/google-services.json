@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "235971143014",
+    "firebase_url": "https://tpush-notification.firebaseio.com",
+    "project_id": "tpush-notification",
+    "storage_bucket": "tpush-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235971143014:android:f370558abaa8ec69",
+        "android_client_info": {
+          "package_name": "com.sabihamumcu.tez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235971143014-f6ntvirjafharqkegsl44v75l4gcj39r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkFDkFi1-KwwlFqnqT9IFQH_MVXNYt5Ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

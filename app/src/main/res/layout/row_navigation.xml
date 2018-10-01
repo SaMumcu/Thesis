@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom"
+              android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/categories"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@color/lightGray"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/categories"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Kategoriler"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/newProducts"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/new_products"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Yeni Ürünler"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/search"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Arama"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:id="@+id/favs"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/loved"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Favoriler"
+            android:textSize="10sp"/>
+    </LinearLayout>-->
+
+    <!--<LinearLayout
+        android:id="@+id/following"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/followed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="İzlenenler"
+            android:textSize="10sp"/>
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/profile"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Profil"
+            android:textSize="10sp"/>
+    </LinearLayout>
+</LinearLayout>
